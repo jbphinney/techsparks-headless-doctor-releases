@@ -42,6 +42,8 @@ TechSparks Headless Doctor is an early-alpha diagnostic WordPress plugin for tro
 - Request Inspector: one anonymous GET to a REST route, with browser timing next to WordPress's numbers
 - Headless Lab: REST requests from the frontend's origin, with saved runs you can compare
 
+How to use it and how to read the result cards: [USER-GUIDE.md](USER-GUIDE.md).
+
 ## Frontend integration and Page Workload
 
 The frontend integration bundle is available from **Settings → Headless Doctor → Download Frontend Integration**. It includes the static files required by the current tested integration and the generated site-specific manifest. Deploy the bundle to the configured frontend origin using your normal deployment process.
