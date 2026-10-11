@@ -1,1 +1,1 @@
-50d54a67f85189e53019dcf70211e0b8060ca65e8db55ca0fa75428b5a310304  techsparks-headless-doctor-0.1.0-alpha-699f1c2.zip
+42eada6697d2d8b6fbd81be28df3129c4c4100b0999880a58a7f06097d5dcfe7  techsparks-headless-doctor-0.2.0-alpha-7f66d2c.zip

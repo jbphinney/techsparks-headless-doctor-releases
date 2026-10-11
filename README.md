@@ -39,6 +39,8 @@ TechSparks Headless Doctor is an early-alpha diagnostic WordPress plugin for tro
 - Copy workload JSON
 - Conservative REST activity classification
 - GraphQL endpoint activity classification when endpoint discovery is available
+- Request Inspector: one anonymous GET to a REST route, with browser timing next to WordPress's numbers
+- Headless Lab: REST requests from the frontend's origin, with saved runs you can compare
 
 ## Frontend integration and Page Workload
 
@@ -46,7 +48,7 @@ The frontend integration bundle is available from **Settings → Headless Doctor
 
 Page Workload performs one controlled page load and observes a bounded browser timing window. It reports browser-visible resource timing entries such as scripts, stylesheets, images, fonts, and network resources. REST and GraphQL activity are conservative classifications of that resource subset; GraphQL classification is available only when the endpoint can be established safely.
 
-Page Workload does not inspect request bodies or GraphQL documents, replay requests, or provide targeted request inspection. Missing browser visibility is reported as unavailable or limited rather than treated as a site defect.
+Page Workload does not inspect request bodies or GraphQL documents or replay requests. Missing browser visibility is reported as unavailable or limited rather than treated as a site defect.
 
 Do not assume compatibility with a particular frontend framework, hosting platform, or deployment model without testing it in your environment.
 
